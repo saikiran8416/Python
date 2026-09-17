@@ -49,3 +49,12 @@ print(f"Slowest test case {logs[slowest_tc_pos]}")
 print(f"Fastest test case {logs[fastest_tc_pos]}")
 print(f"Average execution time {total_execution_time/(len(logs))}")
 print(f"All tests taking more than 200 ms {_200ms_execution_time}")
+
+"""output:
+Number of passed tests: 3
+Number of failed tests 3
+Failed test-case IDs [['TC002', 'FAIL', 350], ['TC004', 'FAIL', 500], ['TC006', 'FAIL', 250]]
+Slowest test case ['TC005', 'PASS', 90]
+Fastest test case ['TC004', 'FAIL', 500]
+Average execution time 248.33333333333334
+All tests taking more than 200 ms [['TC002', 'FAIL', 350], ['TC004', 'FAIL', 500], ['TC006', 'FAIL', 250]]"""
