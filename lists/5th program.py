@@ -1,3 +1,4 @@
+# Write a program ro check the occurance count of values in a given list
 numbers = [1, 2, 3, 2, 4, 2, 5, 3, 1, 2]
 occ_count={}
 for i in numbers:

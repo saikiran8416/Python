@@ -9,3 +9,7 @@ for i in numbers:
         odd.append(i)
 print(f"even list: {even}")
 print(f"odd list: {odd}")
+
+"""output:
+even list: [12, 8, 22, 40]
+odd list: [7, 15, 31, 9]"""
